@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Model">
+  <ClassDiagramComponents>
+    <Class name="Aluno" package="Model" visibility="public" xPosition="20.0" yPosition="357.0">
+      <Fields>
+        <Field name="matricula" type="String" visibility="private"/>
+        <Field name="nome" type="String" visibility="private"/>
+        <Field name="idade" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="matricula"/>
+          <Argument type="String" name="nome"/>
+          <Argument type="String" name="idade"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getMatricula" returnType="String" visibility="public"/>
+        <Method name="setMatricula" returnType="void" visibility="public">
+          <Argument type="String" name="matricula"/>
+        </Method>
+        <Method name="getNome" returnType="String" visibility="public"/>
+        <Method name="setNome" returnType="void" visibility="public">
+          <Argument type="String" name="nome"/>
+        </Method>
+        <Method name="getIdade" returnType="String" visibility="public"/>
+        <Method name="setIdade" returnType="void" visibility="public">
+          <Argument type="String" name="idade"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Funcionario" package="Model" visibility="public" xPosition="659.0" yPosition="338.0">
+      <Fields>
+        <Field name="codigo" type="String" visibility="private" isStatic="true"/>
+        <Field name="cargo" type="String" visibility="private" isStatic="true"/>
+        <Field name="nome" type="String" visibility="private" isStatic="true"/>
+        <Field name="salario" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="codigo"/>
+          <Argument type="String" name="cargo"/>
+          <Argument type="String" name="nome"/>
+          <Argument type="String" name="salario"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCodigo" returnType="String" visibility="public"/>
+        <Method name="setCodigo" returnType="void" visibility="public">
+          <Argument type="String" name="codigo"/>
+        </Method>
+        <Method name="getCargo" returnType="String" visibility="public"/>
+        <Method name="setCargo" returnType="void" visibility="public">
+          <Argument type="String" name="cargo"/>
+        </Method>
+        <Method name="getNome" returnType="String" visibility="public"/>
+        <Method name="setNome" returnType="void" visibility="public">
+          <Argument type="String" name="nome"/>
+        </Method>
+        <Method name="getSalario" returnType="String" visibility="public"/>
+        <Method name="setSalario" returnType="void" visibility="public">
+          <Argument type="String" name="salario"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Turma" package="Model" visibility="public" xPosition="311.0" yPosition="15.0">
+      <Fields>
+        <Field name="professor" type="Funcionario" visibility="private"/>
+        <Field name="alunosdaturma" type="List&lt;Aluno&gt;" visibility="private"/>
+        <Field name="codigo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Funcionario" name="professor"/>
+          <Argument type="List&lt;Aluno&gt;" name="alunos"/>
+          <Argument type="String" name="codigo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getProfessor" returnType="Funcionario" visibility="public"/>
+        <Method name="setProfessor" returnType="void" visibility="public">
+          <Argument type="Funcionario" name="professor"/>
+        </Method>
+        <Method name="getAlunos" returnType="List&lt;Aluno&gt;" visibility="public"/>
+        <Method name="setAlunos" returnType="void" visibility="public">
+          <Argument type="List&lt;Aluno&gt;" name="alunos"/>
+        </Method>
+        <Method name="getCodigo" returnType="String" visibility="public"/>
+        <Method name="setNome" returnType="void" visibility="public">
+          <Argument type="String" name="codigo"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="professor" source="Model.Turma" target="Model.Funcionario" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Model.Turma" target="Model.Funcionario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="alunosdaturma" source="Model.Turma" target="Model.Aluno" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Aluno&gt;"/>
+    <UseRelation source="Model.Turma" target="Model.Aluno" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="View">
+  <ClassDiagramComponents>
+    <Class name="Interface" package="View" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="Cadaluno" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Cadfuncionario" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Cadprofessor" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Cadturma" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Consaluno" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Consfuncionario" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Consprofessor" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Consturma" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="PainelPrincipal" type="javax.swing.JDesktopPane" visibility="private"/>
+        <Field name="aluno" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="funcionario" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenuBar1" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jMenuItem1" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="professor" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="sobre" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="turma" type="javax.swing.JMenu" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="CadprofessorActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CadfuncionarioActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ConsfuncionarioActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ConsalunoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CadalunoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CadalunoMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="alunoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ConsturmaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ConsprofessorActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CadturmaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="sobreActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaBoletim" package="View" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="tfCodigoAluno" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfDisciplina" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfNota" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="tfCodigoAlunoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaCadastroAluno" package="View" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="barra" type="String" visibility="package"/>
+        <Field name="local" type="String" visibility="package"/>
+        <Field name="idadealun" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="matriculaalun" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="nomealun" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="CriarArquivo" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="idadealunActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaCadastroFuncionario" package="View" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="barra" type="String" visibility="package"/>
+        <Field name="local" type="String" visibility="package"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="salariofunc" type="javax.swing.JSlider" visibility="private"/>
+        <Field name="tfCargoFun" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfCodigoFun" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfNomeFun" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfSalarioFun" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="bindingGroup" type="org.jdesktop.beansbinding.BindingGroup" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="CriarArquivo" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="tfSalarioFunActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaCadastroProfessor" package="View" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="barra" type="String" visibility="package"/>
+        <Field name="local" type="String" visibility="package"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="salarioprof" type="javax.swing.JSlider" visibility="private"/>
+        <Field name="tfCodigoPro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfNomePro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfSalarioPro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="bindingGroup" type="org.jdesktop.beansbinding.BindingGroup" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="CriarArquivo" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="tfSalarioProActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaCadastroTurma" package="View" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="barra" type="String" visibility="package"/>
+        <Field name="local" type="String" visibility="package"/>
+        <Field name="local2" type="String" visibility="package"/>
+        <Field name="local_aluno" type="String" visibility="package"/>
+        <Field name="qtdlinhas" type="int" visibility="package"/>
+        <Field name="pasta" type="File" visibility="package"/>
+        <Field name="registros" type="File[]" visibility="package"/>
+        <Field name="colunas" type="String[]" visibility="package"/>
+        <Field name="dtm" type="DefaultTableModel" visibility="package"/>
+        <Field name="tb" type="TableRowSorter" visibility="package"/>
+        <Field name="JTAluno" type="javax.swing.JTable" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="tfCodigoPro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfCodigoTurma" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfDisciplina" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfFiltro" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="CriarArquivo" returnType="void" visibility="public"/>
+        <Method name="DadosTabelaAluno" returnType="void" visibility="public"/>
+        <Method name="Registro" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="JTAlunoMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="JTAlunoKeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="tfFiltroActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="tfFiltroKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaConsultaAluno" package="View" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields>
+        <Field name="barra" type="String" visibility="package"/>
+        <Field name="local" type="String" visibility="package"/>
+        <Field name="local2" type="String" visibility="package"/>
+        <Field name="qtdlinhas" type="int" visibility="package"/>
+        <Field name="pasta" type="File" visibility="package"/>
+        <Field name="registros" type="File[]" visibility="package"/>
+        <Field name="colunas" type="String[]" visibility="package"/>
+        <Field name="dtm" type="DefaultTableModel" visibility="package"/>
+        <Field name="tb" type="TableRowSorter" visibility="package"/>
+        <Field name="JBatualizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="JBexcluir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="JBsair" type="javax.swing.JButton" visibility="private"/>
+        <Field name="JTAluno" type="javax.swing.JTable" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="tfFiltro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfRelatorio" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="DadosTabelaAluno" returnType="void" visibility="public"/>
+        <Method name="Registro" returnType="void" visibility="public"/>
+        <Method name="AtualizarTabela" returnType="void" visibility="public"/>
+        <Method name="Excluir" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="JBsairActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="JBatualizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="JTAlunoMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="JBexcluirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="tfFiltroKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="JTAlunoKeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="tfFiltroActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaConsultaFuncionario" package="View" visibility="public" xPosition="2120.0" yPosition="20.0">
+      <Fields>
+        <Field name="tb" type="TableRowSorter" visibility="package"/>
+        <Field name="barra" type="String" visibility="package"/>
+        <Field name="local" type="String" visibility="package"/>
+        <Field name="local2" type="String" visibility="package"/>
+        <Field name="pasta" type="File" visibility="package"/>
+        <Field name="registros" type="File[]" visibility="package"/>
+        <Field name="colunas" type="String[]" visibility="package"/>
+        <Field name="dtm" type="DefaultTableModel" visibility="package"/>
+        <Field name="JBAtualizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="JTFuncionario" type="javax.swing.JTable" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="tfFiltro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfRelatorio" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="DadosTabelaFun" returnType="void" visibility="public"/>
+        <Method name="Registro" returnType="void" visibility="public"/>
+        <Method name="Excluir" returnType="void" visibility="public"/>
+        <Method name="AtualizarTabela" returnType="void" visibility="public"/>
+        <Method name="removeRow" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="JTFuncionarioMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="JTFuncionarioKeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="tfFiltroKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="JBAtualizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaConsultaProfessor" package="View" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields>
+        <Field name="tb" type="TableRowSorter" visibility="package"/>
+        <Field name="barra" type="String" visibility="package"/>
+        <Field name="local" type="String" visibility="package"/>
+        <Field name="local2" type="String" visibility="package"/>
+        <Field name="pasta" type="File" visibility="package"/>
+        <Field name="registros" type="File[]" visibility="package"/>
+        <Field name="colunas" type="String[]" visibility="package"/>
+        <Field name="dtm" type="DefaultTableModel" visibility="package"/>
+        <Field name="JTProfessor" type="javax.swing.JTable" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="tfFiltro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfRelatorio" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="DadosTabela" returnType="void" visibility="public"/>
+        <Method name="Registro" returnType="void" visibility="public"/>
+        <Method name="Excluir" returnType="void" visibility="public"/>
+        <Method name="AtualizarTabela" returnType="void" visibility="public"/>
+        <Method name="removeRow" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="JTProfessorMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="JTProfessorKeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="tfFiltroKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaConsultaTurma" package="View" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Fields>
+        <Field name="tb" type="TableRowSorter" visibility="package"/>
+        <Field name="barra" type="String" visibility="package"/>
+        <Field name="local" type="String" visibility="package"/>
+        <Field name="local2" type="String" visibility="package"/>
+        <Field name="pasta" type="File" visibility="package"/>
+        <Field name="registros" type="File[]" visibility="package"/>
+        <Field name="colunas" type="String[]" visibility="package"/>
+        <Field name="dtm" type="DefaultTableModel" visibility="package"/>
+        <Field name="JTturma" type="javax.swing.JTable" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="tfFiltro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="tfRelatorio" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="DadosTabela_turma" returnType="void" visibility="public"/>
+        <Method name="Registro" returnType="void" visibility="public"/>
+        <Method name="AtualizarTabela" returnType="void" visibility="public"/>
+        <Method name="Excluir" returnType="void" visibility="public"/>
+        <Method name="removeRow" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="tfFiltroKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="JTturmaMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TelaSobre" package="View" visibility="public" xPosition="620.0" yPosition="420.0">
+      <Fields>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTextArea1" type="javax.swing.JTextArea" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

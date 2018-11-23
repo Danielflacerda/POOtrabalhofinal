@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Control">
+  <ClassDiagramComponents>
+    <Class name="ControlAluno" package="Control" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="alunos" type="List&lt;Aluno&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Consultainsercaoaluno" returnType="Aluno" visibility="public" isStatic="true">
+          <Argument type="String" name="nome"/>
+        </Method>
+        <Method name="Removealuno" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="nome"/>
+        </Method>
+        <Method name="retornaLista" returnType="ArrayList&lt;Aluno&gt;" visibility="public"/>
+        <Method name="Listaralunos" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="Addaluno" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="matricula"/>
+          <Argument type="String" name="nome"/>
+          <Argument type="String" name="idade"/>
+        </Method>
+        <Method name="Removealuno" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="matricula"/>
+          <Argument type="String" name="nome"/>
+          <Argument type="String" name="idade"/>
+        </Method>
+        <Method name="getAlunos" returnType="List&lt;Aluno&gt;" visibility="public" isStatic="true"/>
+        <Method name="setAlunos" returnType="void" visibility="public" isStatic="true">
+          <Argument type="List&lt;Aluno&gt;" name="aAlunos"/>
+        </Method>
+        <Method name="salvarAluno" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="ControlFuncionario" package="Control" visibility="public" xPosition="20.0" yPosition="347.0">
+      <Fields>
+        <Field name="funcionarios" type="List&lt;Funcionario&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Consultainsercaofuncionario" returnType="Funcionario" visibility="public" isStatic="true">
+          <Argument type="String" name="codigo"/>
+        </Method>
+        <Method name="Removefuncionario" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="nome"/>
+        </Method>
+        <Method name="Listarfuncionarios" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="Addfuncionario" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="codigo"/>
+          <Argument type="String" name="cargo"/>
+          <Argument type="String" name="nome"/>
+          <Argument type="String" name="salario"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ControlTurma" package="Control" visibility="public" xPosition="480.0" yPosition="20.0">
+      <Fields>
+        <Field name="turmas" type="List&lt;Turma&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Listarturma" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="Addturma" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Funcionario" name="professor"/>
+          <Argument type="List&lt;Aluno&gt;" name="alunos"/>
+          <Argument type="String" name="codigo"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
